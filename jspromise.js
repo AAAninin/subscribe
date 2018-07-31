@@ -6,7 +6,11 @@ var Mypromise = function (fn) {
     var reslove = function (value) {
         console.log(s);
         for (var i = 0; i < s.length; i++) {
-            s[i](value);
+            if(i == 0){
+                var newvalue = s[i](value);
+            }else{
+                s[i](newvalue);
+            }
         }
     };
     var reject = function (value) {
@@ -37,6 +41,10 @@ var test = function (time) {
 test(1000)
     .then(function (s) {
         console.log(s);
+        return "123234";
+    })
+    .then(function(s){
+        console.log(s)
     })
     .catch(function (s) {
         console.log("出现错误！" + s);
