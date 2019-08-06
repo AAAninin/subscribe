@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.min.js"></script>
+</head>
+
+<body>
+    <p>username</p>
+    <input id="username" type="text">
+    <p>user</p>
+    <input id="user" type="text">
+    <p>password</p>
+    <input id="password" type="password">
+    <button id="submit">make up</button>
+    <button id="login">login</button>
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#login").click(function () {
+            window.location.href = "http://120.79.14.188:8008";
+        })
+        $("#submit").click(function () {
+            var username = $("#username").val();
+            var password = $("#password").val();
+            var user = $("#user").val();
+            console.log(username);
+            $.post(
+                'http://120.79.14.188:3000/registered',
+                {
+                    name: username,
+                    password: password,
+                    user: user
+                },
+                function (data) {
+                    if (data.state == 1) {
+                        alert("register success");
+                        window.location.href="http://120.79.14.188:8008"
+                    }else{
+                        alert("this username is live");
+                    }
+                })
+        })
+    })
+</script>
+
+</html>

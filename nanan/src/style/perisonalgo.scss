@@ -1,0 +1,37 @@
+  
+             
+  p{   
+   font: 300 30px/1.5 Helvetica, Verdana, sans-serif;   
+   border-bottom: 1px solid #ccc;   
+ }   
+             
+ li:last-child {   
+   border: none;   
+ }   
+             
+  p {   
+   text-decoration: none;   
+   color: #000;   
+   display: block;   
+   width: 400px;   
+   margin-bottom: 50px;
+             
+   -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;   
+   -moz-transition: font-size 0.3s ease, background-color 0.3s ease;   
+   -o-transition: font-size 0.3s ease, background-color 0.3s ease;   
+   -ms-transition: font-size 0.3s ease, background-color 0.3s ease;   
+   transition: font-size 0.3s ease, background-color 0.3s ease;   
+ }   
+             
+  p:hover {   
+   font-size: 40px;   
+   background: #000000;   
+    opacity: 0.9;
+ } 
+ 
+ .con{
+  text-align: center;
+}			
+.center {   
+ width: 300px;   
+} 

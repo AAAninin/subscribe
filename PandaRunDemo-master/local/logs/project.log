@@ -1,0 +1,57 @@
+2018-09-10T08:22:50.585Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-10T08:22:50.591Z - normal: checking language setting...
+2018-09-10T08:22:50.591Z - normal: Language: zh
+2018-09-10T08:22:52.784Z - success: protocol editor-framework registered
+2018-09-10T08:22:52.784Z - success: protocol app registered
+2018-09-10T08:22:52.784Z - success: protocol theme registered
+2018-09-10T08:22:52.784Z - success: protocol packages registered
+2018-09-10T08:22:52.784Z - success: protocol unpack registerred
+2018-09-10T08:22:52.784Z - success: protocol disable-commonjs registerred
+2018-09-10T08:22:53.162Z - normal: connected!
+2018-09-10T08:22:53.165Z - normal: Check project D:\LearnProject\PandaRunDemo-master
+2018-09-10T08:22:53.170Z - normal: Initializing Cocos2d
+2018-09-10T08:22:53.460Z - normal: Initializing Asset Database
+2018-09-10T08:22:53.535Z - success: protocol uuid registerred
+2018-09-10T08:22:53.536Z - success: protocol db registerred
+2018-09-10T08:22:53.536Z - success: protocol thumbnail registerred
+2018-09-10T08:22:53.536Z - normal: Loading editor/builtin packages
+2018-09-10T08:22:53.563Z - success: anysdk loaded
+2018-09-10T08:22:53.747Z - success: assets loaded
+2018-09-10T08:22:53.750Z - success: builder loaded
+2018-09-10T08:22:53.754Z - success: cocos-analytics loaded
+2018-09-10T08:22:53.758Z - success: console loaded
+2018-09-10T08:22:53.821Z - success: fb-instant-games loaded
+2018-09-10T08:22:53.827Z - success: hierarchy loaded
+2018-09-10T08:22:53.834Z - success: inspector loaded
+2018-09-10T08:22:53.836Z - success: keystore loaded
+2018-09-10T08:22:53.839Z - success: node-library loaded
+2018-09-10T08:22:53.842Z - success: package-asset loaded
+2018-09-10T08:22:53.844Z - success: preferences loaded
+2018-09-10T08:22:53.846Z - success: project-exporter loaded
+2018-09-10T08:22:53.868Z - success: project-importer loaded
+2018-09-10T08:22:53.870Z - success: project-settings loaded
+2018-09-10T08:22:53.874Z - success: ui-kit loaded
+2018-09-10T08:22:53.876Z - success: ui-grid loaded
+2018-09-10T08:22:53.880Z - success: scene loaded
+2018-09-10T08:22:53.881Z - success: sprite-editor loaded
+2018-09-10T08:22:53.885Z - success: store loaded
+2018-09-10T08:22:53.891Z - success: timeline loaded
+2018-09-10T08:22:53.891Z - normal: Loading builtin packages
+2018-09-10T08:22:53.895Z - success: asset-db-debugger loaded
+2018-09-10T08:22:53.897Z - success: code-editor loaded
+2018-09-10T08:22:53.898Z - success: color-picker loaded
+2018-09-10T08:22:53.901Z - success: package-manager loaded
+2018-09-10T08:22:53.903Z - success: qqplay-adapter loaded
+2018-09-10T08:22:53.909Z - success: sdkbox loaded
+2018-09-10T08:22:53.912Z - success: tester loaded
+2018-09-10T08:22:53.914Z - success: ui-kit-preview-extra loaded
+2018-09-10T08:22:53.916Z - success: ui-kit-preview loaded
+2018-09-10T08:22:53.919Z - success: ui-tree loaded
+2018-09-10T08:22:53.919Z - success: weapp-adapter loaded
+2018-09-10T08:22:55.756Z - normal: Initializing project D:\LearnProject\PandaRunDemo-master
+2018-09-10T08:22:55.791Z - normal: Loading packages
+2018-09-10T08:22:55.801Z - normal: Watching packages
+2018-09-10T08:22:56.255Z - normal: Run Application
+2018-09-10T08:22:58.468Z - success: preview server running at http://localhost:7456
+2018-09-10T08:23:08.168Z - normal: 1.9.2
+2018-09-10T08:24:17.660Z - info: shutdown preview server
